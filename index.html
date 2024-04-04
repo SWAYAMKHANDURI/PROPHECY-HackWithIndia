@@ -2,259 +2,819 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SNIPPETIZE</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="./website/assets/logo.svg" rel="icon">
-  <link href="./website/assets/logo.svg" rel="apple-touch-icon">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./website/homepage/favicon.svg" type="image/svg+xml">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./website/homepage/assets/css/style.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="website/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="website/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="website/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="website/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="website/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="website/assets/css/main.css" rel="stylesheet">
-
-
+  <!--
+    - preload images
+  -->
 </head>
 
-<body>
+<body id="top">
 
-  <header id="header" class="header fixed-top">
+  <!--
+    - #HEADER
+  -->
 
-    </div><!-- End Top Bar -->
+  <header class="header">
 
-    <div class="branding">
+        <div class="header-bottom skewBg" data-header>
+      <div class="container">
 
-      <di class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="./website/assets/logo.svg" alt="">
-          <h1 class="">Snippetize</h1>
+        <a href="#" class="logo">
+          <img src="./website/homepage/assets/images/logo.png" alt="Logo" width="325rem">
         </a>
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="">Home</a></li>
-            <li><a href="#about">Our Vision</a></li>
-            <li><a href="#services">Parents</a></li>
-            <li><a href="./website/gamex-master/esport.html">Esports</a></li>
-            <li><a href="#team">Team</a></li>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
 
-              <ul>
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
 
-            <li><a href="#contact">Log in</a></li>
+            <li class="navbar-item">
+              <a href="#features" class="navbar-link skewBg" data-nav-link>Learn</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link skewBg" data-nav-link>Examine</a>
+            </li>
+
+
+            <li class="navbar-item">
+              <a href="#live" class="navbar-link skewBg" data-nav-link>Play</a>
+            </li>
+
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-      </di>
+        <div class="header-actions">
+
+
+
+          <button class="search-btn" aria-label="open search" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
     </div>
 
   </header>
 
-  <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
 
-      <img src="https://media.istockphoto.com/id/1152258063/photo/upset-mother-having-problem-with-noisy-naughty-daughter.jpg?s=2048x2048&w=is&k=20&c=FN_HSYXQF8p6kRqxW9CxYvYGVKXs9LqxSnUY3QyG3x4=" alt="" data-aos="fade-in">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-start">
-          <div class="col-lg-8">
-            <h2 class="">Welcome to Snippetize</h2>
-            <p>Gamifying knowledge in form of snippets for children with ADHD</p>
-            <a href="#about" class="btn-get-started">Get Started</a>
-          </div>
-        </div>
-      </div>
 
-    </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="">Our Vision<br></span>
-        <h2 class="">Our Vision<br></h2>
-        <p>We aim to help children with ADHD and special needs </p>
-      </div><!-- End Section Title -->
 
-      <div class="container">
 
-        <div class="row gy-4">
 
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="website/assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
+  <!--
+    - #SEARCH BOX
+  -->
 
-          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Learn with Fun and Focus</h3>
-            <p class="fst-italic">
+  <div class="search-container" data-search-box>
 
+    <div class="input-wrapper">
+      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
+
+      <button class="search-submit" aria-label="submit search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <button class="search-close" aria-label="close search" data-search-toggler></button>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home"
+        style="background-image: url('./website/homepage/assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">SNIPPETIZE Learners</p>
+
+            <h1 class="h1 hero-title">
+              Learn <span class="span">Leap</span> Lead
+            </h1>
+
+            <p class="hero-text">
+              Learn in a Gamifying way with SNIPPETIZE. We make learning fun and easy for children with ADHD.
             </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span> Offering children bit-sized, digestible snippets of knowledge</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Empowering students with tradable game currency</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Offer real-time feedback,
-                enabling continuous improvement for both
-                students and parents</span></li>
+
+            <button class="btn skewBg">Explore</button>
+
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Latest News & <span class="span">Articles</span>
+          </h2>
+
+          <p class="section-text">
+            Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin
+            Strategic
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-1.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Shooter Action Video</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-2.jpg" width="400" height="290" loading="lazy" alt="The Walking Dead"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">The Walking Dead</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-3.jpg" width="400" height="290" loading="lazy"
+                    alt="Defense Of The Ancients" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Defense Of The Ancients</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="section-wrapper">
+
+        <!--
+          - #LATEST GAME
+        -->
+
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+
+            <p class="section-subtitle">SNIPPETIZE</p>
+
+            <h2 class="h2 section-title">
+              Why <span class="span">us</span> ?
+            </h2>
+
+            <ul class="has-scrollbar">
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./website/homepage/assets/images/game.png" width="400" height="470" loading="lazy"
+                      alt="White Walker Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Play</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Brain <span class="span">Burn</span></a>
+                    </h3>
+
+
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./website/homepage/assets/images/snippets.png" width="400" height="470" loading="lazy"
+                      alt="Hunter Killer II" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Learn</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Skill <span class="span">Surge</span></a>
+                    </h3>
+
+
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./website/homepage/assets/images/quiz.png" width="400" height="470" loading="lazy"
+                      alt="Cyberpunk Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Examine</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Knowledge <span class="span">Zone</span></a>
+                    </h3>
+
+
+                  </div>
+
+                </div>
+              </li>
+
             </ul>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Latest News & <span class="span">Articles</span>
+          </h2>
+
+          <p class="section-text">
+            Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin
+            Strategic
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-1.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Shooter Action Video</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-2.jpg" width="400" height="290" loading="lazy" alt="The Walking Dead"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">The Walking Dead</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./website/homepage/assets/images/blog-3.jpg" width="400" height="290" loading="lazy"
+                    alt="Defense Of The Ancients" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Defense Of The Ancients</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <h2 class="h2">
+              Our <span class="span">Newsletter</span>
+            </h2>
+
+            <form action="" class="newsletter-form">
+
+              <div class="input-wrapper skewBg">
+                <input type="email" name="email_address" aria-label="email" placeholder="Enter your email..." required
+                  class="email-field">
+
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <button type="submit" class="btn newsletter-btn skewBg">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">SNIPPETIZE</a>
+
+          <p class="footer-text">
+            Gamifying knowledge for children with ADHD
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Address : India
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="headset"></ion-icon>
+              </div>
+
+              <a href="tel:+241245654235" class="item-text">Phone : +91 9999XXXXXX</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+
+              <a href="mailto:info@exemple.com" class="item-text">Email : info@snippetize.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Need Help?</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Use Cases</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+
+            <p class="footer-list-title">Follow Us</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #3b5998">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #55acee">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #d71e18">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #1565c0">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-newsletter">
+
+            <p class="footer-list-title">Newsletter Sign Up</p>
+
+            <form action="" class="footer-newsletter">
+              <input type="email" name="email_address" aria-label="email" placeholder="Enter your email" required
+                class="email-field">
+
+              <button type="submit" class="footer-btn" aria-label="submit">
+                <ion-icon name="rocket"></ion-icon>
+              </button>
+            </form>
+
           </div>
 
         </div>
 
       </div>
+    </div>
 
-    </section><!-- /About Section -->
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="">Services</span>
-        <h2>Services</h2>
-        <p>Services we provide for better future of your wards</p>
-      </div><!-- End Section Title -->
-
+    <div class="footer-bottom">
       <div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Child Behavioural report </h3>
-              </a>
-              <p>Monthly report after analyzing the neural pattern of the child </p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Game</h3>
-              </a>
-              <p>We have built an astronomy game with knowledge snippets for effecient focus and attention of the child</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Marketplace</h3>
-              </a>
-              <p>Built a marketplace for users to trade in game currency for assets and enhance their avatars </p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Leaderboards</h3>
-              </a>
-              <p>Global standings which gives a competitive edge to the user to perform better</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Quests</h3>
-              </a>
-              <p>Organizing quests on a regular basis for improvement in user's intellect and competitive skill</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Community</h3>
-              </a>
-              <p>A global community for users to interact with the world and share their emotions</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
+        <p class="copyright">
+          &copy; 2022 SNIPPETIZE. All Right Reserved.
+        </p>
 
       </div>
+    </div>
 
-    </section><!-- /Services Section -->
+  </footer>
 
-    <!-- Call For Action Section -->
-    <section id="call-to-action" class="call-to-action section">
 
-      <img src="website/assets/img/cta-bg.jpg" alt="">
 
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Call For Action</h3>
-              <p>There are lots of different types of treatment for ADHD, such as medication, talking treatments and educational support. To find out more about these and how you can get them, visit the <a href="https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/">NHS</a> website. We also have specific advice for young people contact us </p>
-              <a class="cta-btn" href="#">Call For Action</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </section><!-- /Call To Action Section -->
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!--
+    - #BACK TO TOP
+  -->
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
 
-  <!-- Vendor JS Files -->
-  <script src="website/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="website/assets/vendor/php-email-form/validate.js"></script>
-  <script src="website/assets/vendor/aos/aos.js"></script>
-  <script src="website/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="website/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="website/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="website/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="website/assets/js/main.js"></script>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./website/homepage/assets/js/script.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
