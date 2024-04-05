@@ -1,27 +1,32 @@
-# `Galactic - Explore Our Solar System in 3D!`
+# SNIPPETIZE
 
-Galactic is an educational game developed in Unity that offers a stunning 3D representation of our solar system. Designed with kids in mind, Galactic provides an immersive and interactive way to learn about the planets and their characteristics [snippetize](https://snippetize.pages.dev).
+## Project Description
 
-## Features
+Snippetize is an innovative educational platform developed for the children with ADHD by providing tailored, bite-sized learning content and interactive activities.
 
-Interactive 3D Environment: Explore the solar system and learn about each planet by interacting with their 3D models.
-Educational Information: Detailed descriptions and fun facts about each planet to enhance learning.
-Engaging Gameplay: Mini-games and quizzes to test your knowledge of the solar system.
-WebGL Compatibility: Playable on web browsers for easy access.
+## Key Features
 
-## How to Play
+- **Bite-sized Content**: Snippetize offers bite-sized information to accommodate the unique needs and attention spans of students with ADHD.
+- **Gamification Elements**: Snippetize incorporates gamification elements such as rewards and challenges to make learning fun and rewarding.
+- **Games**: Snippetize offers games to make learning a fun, and, to keep students with ADHD hooked to learning
 
-`Open The Browser:` Our browser contains the link to play the game [Game](https://snippetize.pages.dev/game).
+## Getting Started
 
-`Launch The Game:` Open the game and start exploring the solar system.
-
-`Interact with Planets:` Use the controls to navigate and interact with the planets.
-
-`Learn and Have Fun:` Read the descriptions, play mini-games, and enjoy learning about our solar system!
+1. **Visit the Website**: [Snippetize Website](https://snippetize.pages.dev)
+2. **Explore Learning Snippets**: Browse through snippets to gather knowledge in topics of interest.
+3. **Engage with Content**: Dive into quizzes, and activities designed to enhance learning.
+4. **Games**: Play games to learn. [Snippetize Astronomy Game](https://snippetize.pages.dev/website/play/esport)
 
 ## Technologies Used
 
-1. Unity
-2. C# Language
-3. .NET Framework
-4. WebGL
+- Frontend: HTML, CSS, JavaScript
+- Backend: Firebase
+- Hosting: Cloudflare
+- Version Control: Git, GitHub
+- Tools and Frameworks: .NET Framework, Unity (for 3D games), Auth0 (for authentication)
+
+## Contact
+
+We are team PROPHECY
+
+---

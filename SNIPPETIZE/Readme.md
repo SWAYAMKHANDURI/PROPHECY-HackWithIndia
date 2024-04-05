@@ -1,6 +1,6 @@
 # STORY OF AKASH:
 
-During the COVID lockdown in India, Akash, a lively 12-year-old boy, found himself confined to his home along with his parents who were now working from home. As they navigated this new normal, they began noticing some unusual behaviors in Akash. He seemed constantly excited, fidgety, and easily distracted. His hyperactivity, impulsivity, and forgetfulness became more apparent each day, leaving his parents concerned.
+During the COVID lockdown, Akash, a lively 12-year-old boy, found himself confined to his home along with his parents who were now working from home. As they navigated this new normal, they began noticing some unusual behaviors in Akash. He seemed constantly excited, fidgety, and easily distracted. His hyperactivity, impulsivity, and forgetfulness became more apparent each day, leaving his parents concerned.
 
 Recognizing the need for professional advice, Akash's parents took him to the doctor. After careful observation and assessment, the doctor diagnosed Akash with ADHD (Attention Deficit Hyperactivity Disorder). Concerned and confused, Akash's parents listened intently as the doctor explained the condition.
 
@@ -101,15 +101,13 @@ Furthermore, SNIPPETIZE introduces an innovative incentive system that allows st
 
 By empowering students with ADHD through SNIPPETIZE, we aim to provide them with the tools and resources they need to succeed academically and personally. Our platform goes beyond traditional educational methods by leveraging technology to create a dynamic and interactive learning environment tailored to the needs of students with ADHD. Through SNIPPETIZE, we hope to make a positive impact on the lives of students worldwide, helping them overcome the challenges associated with ADHD and reach their full potential. Join us in revolutionizing education and shaping the future of learning for generations to come.
 
-### HOW TO USE SNIPPETIZE:
+### USING SNIPPETIZE:
 
 SNIPPETIZE offers a user-friendly journey tailored to enhance learning experiences for all users:
 
-1. **Register**: Get started on SNIPPETIZE by signing up and providing necessary details to create an account effortlessly. This simple registration process enables users to access the platform's features and resources promptly.
-2. **Engage**: Dive into educational sessions presented through interactive games, providing a dynamic and immersive learning experience. SNIPPETIZE's engaging content captivates users, making learning enjoyable and effective.
-3. **Provide Feedback**: Contribute to continuous improvement by offering real-time feedback on the platform. User feedback plays a crucial role in refining educational content, ensuring that SNIPPETIZE remains responsive to the needs and preferences of students and parents.
-4. **Participate:** Join contests and activities available on SNIPPETIZE to earn game currency, fostering motivation and active engagement among users. These incentives encourage ongoing learning and participation in the platform's educational offerings.
-5. **Grow**: Explore the platform's marketplace to build and trade assets, promoting financial literacy and self-confidence. By navigating the virtual economy, users develop essential life skills while experiencing the rewards of their learning journey on SNIPPETIZE.
+1. **Engage**: Dive into educational sessions presented through interactive games, providing a dynamic and immersive learning experience. SNIPPETIZE's engaging content captivates users, making learning enjoyable and effective.
+2. **Participate:** Join contests and activities available on SNIPPETIZE to earn game currency, fostering motivation and active engagement among users. These incentives encourage ongoing learning and participation in the platform's educational offerings.
+3. **Grow**: Explore the platform's marketplace to build and trade assets, promoting financial literacy and self-confidence. By navigating the virtual economy, users develop essential life skills while experiencing the rewards of their learning journey on SNIPPETIZE.
 
 Through these user-friendly features, SNIPPETIZE empowers users to embark on a rewarding educational experience tailored to their needs and preferences. Whether registering for the first time, actively engaging with educational content, providing feedback, participating in contests, or exploring the marketplace, SNIPPETIZE offers a supportive and enriching learning environment for all users.
 
@@ -127,10 +125,10 @@ SNIPPETIZE's innovative approach to education breaks down barriers for children 
 ### TECHNOLOGICAL STACK:
 
 1. **FRONTEND**: HTML, CSS, JavaScript
-2. **BACKEND**: Firebase, 0Auth
+2. **BACKEND**: Firebase
 3. **HOSTING**: Cloudflare
 4. **VERSION** CONTROL: Git, GitHub
-5. **TOOLS AND FRAMEWORKS**: .net framework, utility game engine( C# language)
+5. **TOOLS AND FRAMEWORKS**: .net framework, utility game engine( C# language), Auth0 (for authentication)
 
 ### WEBSITE:
 
@@ -138,9 +136,7 @@ We're thrilled to introduce the Snippetize website, a revolutionary platform des
 
 In addition to customized learning, Snippetize incorporates gamification elements to enhance user engagement and motivation. Students can earn badges, unlock assets, and climb the leaderboard as they progress through educational activities and challenges. This gamified approach not only makes learning fun and rewarding but also encourages students to stay actively involved in their educational journey.
 
-Furthermore, Snippetize provides real-time feedback to students, parents, and educators, facilitating ongoing improvement and collaboration. By offering immediate insights into student performance and progress, our platform empowers stakeholders to make informed decisions and adjustments to support student learning and growth effectively.
-
-With Snippetize, we're reimagining education as a dynamic and interactive experience that empowers students to reach their full potential. Join us on Snippetize and embark on a journey of personalized learning, gamified engagement, and continuous improvement. Together, let's revolutionize education for the betterment of all learners.
+With Snippetize, we're re-imagining education as a dynamic and interactive experience that empowers students to reach their full potential. Join us on Snippetize and embark on a journey of personalized learning, gamified engagement, and continuous improvement. Together, let's revolutionize education for the betterment of all learners.
 
 For SNIPPETIZE website, [CLICK HERE.](https://snippetize.pages.dev)
 
@@ -165,7 +161,7 @@ Through these strategic initiatives, we aim to create a comprehensive and effect
 
 # CONCLUSION:
 
-In conclusion, our website, Snippetize, stands as a testament to our unwavering commitment to addressing the unique educational challenges faced by individuals with ADHD. From its inception, Snippetize has been driven by a clear vision: to revolutionize education and empower ADHD learners to reach their full potential.
+In conclusion, our website, Snippetize, stands to address the unique educational challenges faced by individuals with ADHD. From its inception, Snippetize has been driven by a clear vision: to revolutionize education and empower ADHD learners to reach their full potential.
 
 Recognizing the diverse needs of ADHD students, we embarked on a comprehensive journey, starting with a thorough assessment of their requirements and the establishment of clear project goals. Through extensive research, we delved deep into understanding the learning strategies best suited to address the specific needs and challenges of ADHD learners. This research laid the foundation for the development of Snippetize, guiding the creation of a website structure designed to provide a seamless and engaging learning experience.
 
@@ -176,3 +172,5 @@ The implementation of features such as interactive educational content, gamifica
 Our journey with Snippetize does not end with its launch; rather, it marks the beginning of a new chapter in our commitment to empowering ADHD learners. Through continuous iteration and improvement, we will monitor and evaluate Snippetize's impact on academic performance, engagement, and overall well-being. We remain dedicated to delivering a comprehensive and effective web solution that empowers ADHD learners to succeed academically and personally.
 
 In the ever-evolving landscape of education, Snippetize stands as a beacon of innovation and inclusion, demonstrating the transformative power of technology in creating a more accessible and equitable learning environment for all. With Snippetize, we envision a future where every ADHD learner has the opportunity to thrive and realize their dreams.
+
+---
