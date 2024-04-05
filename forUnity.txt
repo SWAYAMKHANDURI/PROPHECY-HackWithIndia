@@ -1,0 +1,10 @@
+<style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #030A1B;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+</style>
