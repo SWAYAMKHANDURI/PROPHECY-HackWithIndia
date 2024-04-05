@@ -128,7 +128,7 @@ SNIPPETIZE's innovative approach to education breaks down barriers for children 
 
 1. **FRONTEND**: HTML, CSS, JavaScript
 2. **BACKEND**: Firebase, 0Auth
-3. **HOSTING**: Azure Cloud Services, Cloudflare
+3. **HOSTING**: Cloudflare
 4. **VERSION** CONTROL: Git, GitHub
 5. **TOOLS AND FRAMEWORKS**: .net framework, utility game engine( C# language)
 
@@ -158,10 +158,10 @@ Through these strategic initiatives, we aim to create a comprehensive and effect
 # CHALLENGES:
 
 1. **Data Privacy and Security**: Managing sensitive student data gathered from gaming or educational platforms requires robust security measures to ensure compliance with privacy regulations and protect against data breaches.
-1. **Technological Integration**: Integrating machine learning, artificial intelligence, and sensory stimulation techniques into educational platforms may pose challenges in terms of compatibility, scalability, and seamless integration with existing systems.
-1. **Multilingual Support**: Developing a multilingual web platform that caters to diverse language needs requires careful consideration of translation accuracy, cultural nuances, and technical infrastructure to ensure an inclusive user experience.
-1. **User Engagement and Motivation**: Designing educational interventions that effectively engage and motivate ADHD students may require innovative approaches to sustain interest, foster intrinsic motivation, and overcome challenges related to attention and focus.
-1. **Collaboration and Stakeholder Engagement**: Building successful partnerships with doctors, teachers, educational institutions, and other stakeholders is essential for gaining insights, validating solutions, and ensuring adoption of educational innovations in real-world settings. Effective communication, collaboration, and alignment of goals are key to navigating these complex relationships.
+2. **Technological Integration**: Integrating machine learning, artificial intelligence, and sensory stimulation techniques into educational platforms may pose challenges in terms of compatibility, scalability, and seamless integration with existing systems.
+3. **Multilingual Support**: Developing a multilingual web platform that caters to diverse language needs requires careful consideration of translation accuracy, cultural nuances, and technical infrastructure to ensure an inclusive user experience.
+4. **User Engagement and Motivation**: Designing educational interventions that effectively engage and motivate ADHD students may require innovative approaches to sustain interest, foster intrinsic motivation, and overcome challenges related to attention and focus.
+5. **Collaboration and Stakeholder Engagement**: Building successful partnerships with doctors, teachers, educational institutions, and other stakeholders is essential for gaining insights, validating solutions, and ensuring adoption of educational innovations in real-world settings. Effective communication, collaboration, and alignment of goals are key to navigating these complex relationships.
 
 # CONCLUSION:
 
