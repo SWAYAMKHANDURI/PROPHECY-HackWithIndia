@@ -8,7 +8,7 @@ Engaging Game  Play: Mini-games and quizzes to test your knowledge of the solar 
 WebGL Compatibility: Playable on web browsers for easy access.
 
 ## How to Play
-`Open The Browser:` Link to play the game in browser: [Game](https://snippetize.pages.dev/website/play/esport)
+`Open The Browser:` Link to play the game in browser: [Game](https://swayamkhanduri.github.io/PROPHECY-HackWithIndia/website/play/esport.html)
 
 `Launch The Game:` Open the game and start exploring the solar system.
 

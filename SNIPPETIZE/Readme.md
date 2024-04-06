@@ -138,7 +138,7 @@ In addition to customized learning, Snippetize incorporates gamification element
 
 With Snippetize, we're re-imagining education as a dynamic and interactive experience that empowers students to reach their full potential. Join us on Snippetize and embark on a journey of personalized learning, gamified engagement, and continuous improvement. Together, let's revolutionize education for the betterment of all learners.
 
-For SNIPPETIZE website, [CLICK HERE.](https://snippetize.pages.dev)
+For SNIPPETIZE website, [CLICK HERE.](https://swayamkhanduri.github.io/PROPHECY-HackWithIndia/)
 
 # FUTURE PLANS:
 
