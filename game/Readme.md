@@ -1,5 +1,5 @@
 # Galactic - Explore Our Solar System in 3D!
-Galactic is an educational game developed in Unity that offers a stunning 3D representation of our solar system. Designed with kids in mind, Galactic provides an immersive and interactive way to learn about the planets and their characteristics [snippetize](https://snippetize.pages.dev).
+Galactic is an educational game developed in Unity that offers a stunning 3D representation of our solar system. Designed with kids in mind, Galactic provides an immersive and interactive way to learn about the planets and their characteristics [snippetize](https://swayamkhanduri.github.io/PROPHECY-HackWithIndia/index.html).
 
 ## Features
 Interactive 3D Environment: Explore the solar system and learn about each planet by interacting with their 3D models.
