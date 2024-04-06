@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'arcade-free-font';
+    src: url(./asset/arcade-pixel-font/PublicPixel-z84yD.ttf);
+   }
+  @font-face {
+    font-family: 'pacman';
+    src: url(./asset/emulogic-font/Emulogic-zrEw.ttf);
+  }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+:root {
+    background:#09090B;
+    /* font-size: 62.5%; */
+  }
+.head{
+
+    font-family: 'arcade-free-font';
+}
+
+.content{
+    font-family: 'pacman';
+    color: #ccff00;
+}
+.card {
+    background-color: #431F54    ;
+    border-radius: 10px;
+    border: 1rem solid #56a5eb;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 16px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.beginner {
+    background-color: #F58730;
+    
+}
+
+.intermediate {
+    
+    background-color: #F58730;
+}
+
+.advanced {
+    background-color: #F58730    ;
+}
+
+h2 {
+    margin-bottom: 10px;
+}

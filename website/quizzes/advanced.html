@@ -1,44 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./advanced.css" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css/advanced.css">
+    
 </head>
-
 <body>
-    <section class="main">
-
-        <div class="container">
-            <div class="col">
-                <h3 id="questionBox">
-                    1) Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
-                </h3>
-            </div>
-            <div class="col box">
-                <input name="option" type="radio" id="first" value="a" required>
-                <label for="first">Testing 1</label>
-            </div>
-            <div class="col box">
-                <input name="option" type="radio" id="second" value="b" required>
-                <label for="second">Testing 2</label>
-            </div>
-            <div class="col box">
-                <input name="option" type="radio" id="third" value="c" required>
-                <label for="third">Testing 3</label>
-            </div>
-            <div class="col box">
-                <input name="option" type="radio" id="fourth" value="d" required>
-                <label for="fourth">Testing 4</label>
-            </div>
-            <button id="submit">Submit</button>
+<div class="app">
+    <!-- <div class="quest-head" style="display: flex; flex-direction: row-reverse; justify-content: space-between;">
+        <div id="timer">00:00</div> -->
+    <h1>Quests</h1>
+    <div class="quiz">
+        <h2 id="question">Sample Question</h2>
+        <div id="answer-buttons">
+            <button class="btn">Ans1</button>
+            <button class="btn">Ans2</button>
+            <button class="btn">Ans3</button>
+            <button class="btn">Ans4</button>
         </div>
-
-    </section>
-    <script src="./advanced.js"></script>
+        <button id="next-btn">Next</button>  
+    </div>
+</div>
+<script src="./js/advanced.js"></script>
 </body>
-
 </html>
